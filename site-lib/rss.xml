@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Synced]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Synced</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 29 Sep 2025 15:19:40 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 29 Sep 2025 15:19:38 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Overleaf]]></title><description><![CDATA[KDE Kile - FOSS/offline alternative to Overleaf
+<a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.overleaf.com/edu/agh" target="_self">https://www.overleaf.com/edu/agh</a><br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes" target="_self">https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes</a>LaTeX is not a “WYSIWYG” tool, your document is a plain text file interspersed with LaTeX commands used to express the desired (typeset) results. It uses .tex files.<br>TeX Live: <a rel="noopener nofollow" class="external-link is-unresolved" href="https://tug.org/texlive/" target="_self">https://tug.org/texlive/</a><br>Find TeX packages: <a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.ctan.org/" target="_self">https://www.ctan.org/</a>Make use of the Visual Editor sometimes!Auto compile: ON.
+Compile error handling: Stop on first error.Add these packages to preamble for polish chars:
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc} Preferable document class:
+\documentclass[12pt, a4paper, onecolumn]{article}Italics: \textit{...}
+Bold: \textbf{...}
+Underline: \underline{...}You can have multiple images in one figure (e.g. side-by-side).<br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.overleaf.com/project/68c07400736bbed0e4331fdd" target="_self">https://www.overleaf.com/project/68c07400736bbed0e4331fdd</a>LaTeX provides two writing modes for typesetting mathematics:
+inline math mode used for writing formulas that are part of a paragraph.
+display math mode used to write expressions that are not part of a text or paragraph and are typeset on separate lines.
+Examples:
+<br>Using built-in functions: <a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.overleaf.com/project/68c075c25befe4b5d93629d1" target="_self">https://www.overleaf.com/project/68c075c25befe4b5d93629d1</a>
+<br>Using the \usepackage{amsmath}: <a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.overleaf.com/project/68c0760ad8bca38ce7923df5" target="_self">https://www.overleaf.com/project/68c0760ad8bca38ce7923df5</a>
+Useful links:
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Mathematical_expressions" rel="noopener nofollow" class="external-link is-unresolved" title="Mathematical expressions" href="https://www.overleaf.com/learn/latex/Mathematical_expressions" target="_self">Mathematical expressions</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Subscripts_and_superscripts" rel="noopener nofollow" class="external-link is-unresolved" title="Subscripts and superscripts" href="https://www.overleaf.com/learn/latex/Subscripts_and_superscripts" target="_self">Subscripts and superscripts</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Brackets_and_Parentheses" rel="noopener nofollow" class="external-link is-unresolved" title="Brackets and Parentheses" href="https://www.overleaf.com/learn/latex/Brackets_and_Parentheses" target="_self">Brackets and Parentheses</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Fractions_and_Binomials" rel="noopener nofollow" class="external-link is-unresolved" title="Fractions and Binomials" href="https://www.overleaf.com/learn/latex/Fractions_and_Binomials" target="_self">Fractions and Binomials</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Aligning_equations_with_amsmath" rel="noopener nofollow" class="external-link is-unresolved" title="Aligning equations with amsmath" href="https://www.overleaf.com/learn/latex/Aligning_equations_with_amsmath" target="_self">Aligning Equations</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Operators" rel="noopener nofollow" class="external-link is-unresolved" title="Operators" href="https://www.overleaf.com/learn/latex/Operators" target="_self">Operators</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Spacing_in_math_mode" rel="noopener nofollow" class="external-link is-unresolved" title="Spacing in math mode" href="https://www.overleaf.com/learn/latex/Spacing_in_math_mode" target="_self">Spacing in math mode</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Integrals%2C_sums_and_limits" rel="noopener nofollow" class="external-link is-unresolved" title="Integrals, sums and limits" href="https://www.overleaf.com/learn/latex/Integrals%2C_sums_and_limits" target="_self">Integrals, sums and limits</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Display_style_in_math_mode" rel="noopener nofollow" class="external-link is-unresolved" title="Display style in math mode" href="https://www.overleaf.com/learn/latex/Display_style_in_math_mode" target="_self">Display style in math mode</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols" rel="noopener nofollow" class="external-link is-unresolved" title="List of Greek letters and math symbols" href="https://www.overleaf.com/learn/latex/List_of_Greek_letters_and_math_symbols" target="_self">List of Greek letters and math symbols</a>
+<br><a data-tooltip-position="top" aria-label="https://www.overleaf.com/learn/latex/Mathematical_fonts" rel="noopener nofollow" class="external-link is-unresolved" title="Mathematical fonts" href="https://www.overleaf.com/learn/latex/Mathematical_fonts" target="_self">Mathematical fonts</a>
+<br>New users are advised that multiple \\ or \newlines should not be used to “simulate” paragraphs with larger spacing between them because this can interfere with LaTeX’s typesetting algorithms. The recommended method is to continue using blank lines for creating new paragraphs, without any \\, and load the <a data-tooltip-position="top" aria-label="https://ctan.org/pkg/parskip?lang=en" rel="noopener nofollow" class="external-link is-unresolved" href="https://ctan.org/pkg/parskip?lang=en" target="_self"><code></code> package</a>parskip by adding \usepackage{parskip} to the preamble.Document-structuring commands can depend on the document class being used. By way of example, documents created using the book class can be split into parts, chapters, sections, subsections and so forth but the letter class does not provide (support) any commands to do that.Newline: \\ %equivalent to \newline.<br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.overleaf.com/learn/latex/Sections_and_chapters" target="_self">https://www.overleaf.com/learn/latex/Sections_and_chapters</a><br>Example: <a rel="noopener nofollow" class="external-link is-unresolved" href="https://www.overleaf.com/project/68c079ed736bbed0e434c1bc" target="_self">https://www.overleaf.com/project/68c079ed736bbed0e434c1bc</a>\documentclass[12pt, a4paper, onecolumn]{article}
+\title{Example LaTeX document}
+\author{John Doe\thanks{Said author does not exist and is a fictional character.}}
+\date{\today}
+\usepackage[T1]{fontenc} %These are
+\usepackage[polish]{babel} %needed for
+\usepackage[utf8]{inputenc} %Polish characters.
+\usepackage{graphicx} %LaTeX package to import graphics
+\graphicspath{{images/}} %configuring the graphicx package\begin{document}
+\maketitle
+\tableofcontents
+\section{Introduction}
+\begin{abstract}
+This is a simple paragraph at the beginning of the
+document. A brief introduction about the main subject.
+\end{abstract}
+\section*{Unnumbered Section}
+Lorem Ipsum. ĄĘąę
+% This line here is a comment. It will not be typeset in the document.\begin{figure}[h!b]
+\centering
+\includegraphics[width=1\textwidth]{X4_logistics_flowchart.jpg}
+\caption{Enter Caption}
+\label{fig:placeholder}
+\end{figure}You can see figure \ref{fig:placeholder} on page \pageref{fig:placeholder}.\section{Second Section}\begin{itemize} %unordered list
+\item The individual entries are indicated with a black dot, a so-called bullet.
+\item The text in the entries may be of any length.
+\end{itemize}\begin{enumerate} %ordered list
+\item This is the first entry in our list.
+\item The list numbers increase with each entry we add.
+\end{enumerate}\begin{table}
+\centering
+\begin{tabular}{c|ccc|cc}
+\hline
+ff &amp;vdg &amp; gg&amp; &amp; &amp; \\
+&amp; &amp; &amp; &amp; &amp; \\
+&amp; &amp; &amp; &amp; &amp; \\
+&amp; &amp; bb &amp; &amp; &amp; \\
+\hline
+\end{tabular}
+\caption{Caption}
+\label{tab:placeholder}
+\end{table}\end{document}]]></description><link>other/software/overleaf.html</link><guid isPermaLink="false">Other/Software/Overleaf.md</guid><pubDate>Mon, 29 Sep 2025 15:17:29 GMT</pubDate></item><item><title><![CDATA[MATLAB + Simulink]]></title><description><![CDATA[Octave or Scilab - FOSS alternatives to MATLABYou can dock and undock each menu element (To undo layout changes: Home -&gt; Layout -&gt; Default).MATLAB is case-sensitive (A ≠ a)Important!
+MATLAB uses the dot (.) as decimal separator, not the comma (,).
+Decimals are written like this: 5.7, not like this: 5,7.
+Confirm commands by pressing the "Enter" key.
+The results of commands ending with a semicolon (;) won't show up in the command window. You can write multiple commands in the same line, provided that you separate them with a semicolon. The ans variable holds the answer/result of operations for which a variable wasn't defined and changes after each command.Basic arithmetic functions: +, -, *, /, ^. Also, sqrt, which automatically calculates imaginary numbers (try doing sqrt(-1) in MATLAB).Basic commands:
+who - list variables in workspace.
+whos - list variables in workspace, alongside their datatypes and size.
+clear - remove variables from workspace (can be used for singular variables or all of them).
+clc - clear the command window.
+plot - used for plotting graphs.
+help - try using the help command to see what this command does.You'll want to start most scripts with the clear and clc commands, in that order:
+clear all;clc;close allYou can make comments by preceding them with a % sign.Syntax:
+{table_name}=[{row1_element1} {row1_element2}; {row2_element1} {row2_element2}]
+E.g. A=[1 2; 3 4]. You can also use the comma (,) to separate elements in a row, like this:
+A=[1, 2; 3, 4].Difference between table and matrix operations:
+The . is the table operator and is used right before an arithmetic operation, like this:
+C=A.*B, D=C.^B.
+There is not much difference for the + and - operations, but: When doing multiplication (*), the following table operation: C=A.*B will multiply the A and B tables' elements that are in the same row and column, while a matrix operation: C=A*B will follow the matrix multiplication rules. No difference when multiplying by a constant.
+Similarly, when doing exponentiation (^), the following table operation: C=A.^2 will raise each element of the table A to the power of 2, while a matrix operation: C=A^2 will be equivalent to multiplying the A matrix by itself. Other methods of creating arrays (tables):
+a=zeros(3) - creates a 3 by 3 array filled with zeroes.
+b=ones(3) - creates a 3 by 3 array filled with ones.
+c=ones(3)*7 - creates a 3 by 3 array filled with sevens.
+d=ones(3,4) - creates a 3 by 4 array filled with ones.
+e=rand(6) - creates a 6 by 6 array with randomized elements between 0 and 1.
+f=eye(3) - creates an identity matrix (all ones on the diagonal).
+g=magic(5) - creates a magic matrix (sum of all rows, columns and diagonals is the same)
+i=50*rand(3) - creates an array with randomized elements between 0 and 50.
+j=150*rand(3)-50 - creates an array with randomized elements between -50 and 100 (alternatively: j=randi([-50,100], 3)).Matrix transposition: ' (rows become columns), e.g. n=m'.
+<a data-tooltip-position="top" aria-label="https://en.wikipedia.org/wiki/File:Matrix_transpose.gif" rel="noopener nofollow" class="external-link is-unresolved" href="https://en.wikipedia.org/wiki/File:Matrix_transpose.gif" target="_self"></a><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif" referrerpolicy="no-referrer" target="_self" class="is-unresolved">
+Matrix inversion: inv(m). If you multiply a matrix by its inverse, you obtain an identity matrix.You can select an array element this way: {array_name}({row},{column}). E.g. element=A(2,3).
+Notice that the first position is the row and the second is the column.
+You can also replace a specific element in the array, e.g. A(2,3)=50.
+By utilizing the "all set elements" operator (:), we can:
+Choose all elements of a row, like this: A(2,:). Understand it like this: A(second row, all elements (columns)).
+Choose all elements of a column, like this: A(:,4). Understand it like this: A(all elements (rows), fourth column).
+Choose all elements of a range of columns/rows, like this: A(3:4,2:4).
+Indexation in MATLAB starts from 1.
+The default step (h) is equal to 1. E.g. x=5:15 will create the vector x=[5,6,7,8,9,10,11,12,13,14,15].
+You can declare a different step value, e.g. x=5:3:15, where 3 is the step value h.Vector arithmetic:
+Choose a specific vector element, e.g. x(4) is the fourth element of the x vector.
+Replace vector element/assign to variable, e.g. x(4)=12, var=x(4).
+Remove vector element, e.g. x(4)=[].
+Choose the last vector element, e.g. x(end).
+Adding an element to the end of the vector, e.g. x(end+1)=17.
+Calculate the length of the vector (number of elements), e.g. k=length(x).
+Choose a range of vector elements, e.g. x(1:5). This way you're de facto choosing a sub-vector from the vector x, i.e. x(4:8) &lt;=&gt; x([4 5 6 7 8]). You can use this to choose any vector elements, e.g. x([2 5 11]) selects elements indexed 2, 5, and 11.
+You can make use of steps to create new vectors from pre-existing ones with a specific pattern, e.g. d=x(1:2:end) creates a vector d that contains every second element of vector x.
+You can concatenate vectors, e.g. z=[x y] and also add values to them, like this:zz=[3 11 21 x(3:8) 4:8 12 y(1:5)]. Mistaking an element's index with its value.
+Chosen index exceeds the number of array elements.
+Using the comma as decimal separator.
+Indexing from zero or negative numbers/non-integers.
+Unpaired parentheses/incorrect parentheses type.
+Forgot to close a loop with end (The IF statement also requires an end).
+M-files are specific to MATLAB. To create a new script, go to: Home -&gt; New (Script), or press CTRL+N.File naming shenanigans:
+File names can't start with a number.
+File names can't contain spaces or dots, also avoid using #, %, $, etc.
+Do not use MATLAB-specific commands (e.g. length, for, while, plot) to name your files.
+Use camelCase for naming files and variables!
+Also use names instead of single-letter variables: Alice, Bob, ...end &lt;=&gt; } in other programming languages.
+Use x=x+1 instead of x++ (as in C).
+There is no built-in do while loop in MATLAB.FOR loop:
+Usually used when you know how many times the loop will be executed, e.g.:
+clear all
+clc
+close all
+for k=1:10
+x(k)=50-k
+endWHILE loop:
+Usually used when you don't know how many times the loop will be executed, e.g.:
+clear all
+clc
+close all
+count=0
+a=0
+while a&lt;=999
+a=1000*rand(1)
+count=count+1
+endIF condition:
+clear all
+clc
+x=rand(1,20)
+for k=1:20
+if x(k) &lt;= 0.3
+x(k)=0;
+elseif x(k) &gt; 0.8
+x(k)=1;
+else
+x(k)=x(k);
+end
+end
+disp(x)Example programs:Multiplication table:
+clear all
+clc
+A=zeros(10);
+for k=1:10
+for n=1:10
+A(k,n)=k*n;
+end
+end
+disp(A)Understand it like this:
+The internal loop for n=1:10 is executed in its entirety for each time the external loop for k=1:10 gets executed once. In other words, we start with the first row (k=1) and for that row, we multiply it by columns 1 to 10, like this:
+row 1 * column 1, row 1 * column 2, row 1 * column 3, ...
+row 2 * column 1, row 2 * column 2, row 2 * column 3, ...Ordered elements table:
+clear all
+clc
+A=zeros(10);
+a=0;
+count=1;
+for k=1:10
+for n=1:10
+A(k,n)=n+a;
+end
+a=n*count;
+count=count+1;
+end
+disp(A)Chessboard:
+clear all
+clc
+A=zeros(10);
+range=1;
+count=1;
+for k=1:10
+if mod(count,2) == 0 %we want to switch the range of every second row, which happens each time the count is divisible by 2.
+range=2;
+else
+range=1;
+end
+for n=range:2:(range+9)
+if A(k,n) == 0
+A(k,n)=1;
+end
+end
+count=count+1;
+end
+disp(A)Quadratic equations:
+clear all;
+close all;
+clc;
+a=input("Podaj współczynnik przy najwyższej potędze: ")
+b=input("Podaj współczynnik przy pierwszej potędze: ")
+c=input("Podaj wyraz wolny: ")
+delta=b^2-4*a*c;
+if delta==0
+x0=(-1*b)/(2*a)
+elseif delta&gt;0
+x1=(-1*b+sqrt(delta))/(2*a)
+x2=(-1*b-sqrt(delta))/(2*a)
+elseif delta&lt;0
+x1=(-1*b+i*sqrt(-1*delta))/(2*a)
+x2=(-1*b-i*sqrt(-1*delta))/(2*a)
+endpolyfit, polyvalFirst degree polynomial:
+clear all
+clc
+close all
+x=-50:20:70;
+y=10*rand(1,length(x));
+plot(x,y,"*")
+%inserting the matrices:
+Y=y';
+X=ones(7,2);
+for k=1:7
+X(k,2)=x(k);
+end
+%alternatively: X=[ones(length(x),1) x']
+A=inv(X'*X)*X'*Y
+xx=-50:70;
+yy=A(1)+A(2)*xx;
+plot(x,y,"*",xx,yy)
+legend("Węzły aproksymacji","Aproksymacja liniowa")Second degree polynomial:
+clear all
+clc
+close all
+x=-50:20:70;
+y=10*rand(1,length(x));
+plot(x,y,"*")
+%inserting the matrices:
+Y=y';
+X=ones(7,3);
+for k=1:7
+X(k,2)=x(k);
+X(k,3)=(x(k))^2;
+end
+%alternatively: X=[ones(length(x),1) x' x'.^2]
+A=inv(X'*X)*X'*Y
+xx=-50:70;
+yy=A(1)+A(2)*xx+A(3)*(xx.^2);
+plot(x,y,"*",xx,yy)
+legend("Węzły aproksymacji","Aproksymacja kwadratowa")Fourth degree polynomial:
+clear all
+clc
+close all
+x=-50:20:70;
+y=10*rand(1,length(x));
+plot(x,y,"*")
+%inserting the matrices:
+Y=y';
+X=ones(7,4);
+for k=1:7
+X(k,2)=x(k);
+X(k,3)=(x(k))^2;
+X(k,4)=(x(k))^3;
+end
+%alternatively: X=[ones(length(x),1) x' x'.^2 x'.^3 x'.^4]
+A=inv(X'*X)*X'*Y
+xx=-50:70;
+yy=A(1)+A(2)*xx+A(3)*(xx.^2)+A(4)*(xx.^3);
+plot(x,y,"*",xx,yy)
+legend("Węzły aproksymacji","Aproksymacja wielomianem czwartego stopnia")Sixth degree polynomial:
+clear all
+clc
+close all
+x=-50:20:70;
+y=10*rand(1,length(x));
+plot(x,y,"*")
+%inserting the matrices:
+Y=y';
+X=ones(7,6);
+for k=1:7
+X(k,2)=x(k);
+X(k,3)=(x(k))^2;
+X(k,4)=(x(k))^3;
+X(k,5)=(x(k))^4;
+X(k,6)=(x(k))^5;
+end
+%alternatively: X=[ones(length(x),1) x' x'.^2 x'.^3 x'.^4 x'.^5 x'.^6]
+A=inv(X'*X)*X'*Y
+xx=-50:70;
+yy=A(1)+A(2)*xx+A(3)*(xx.^2)+A(4)*(xx.^3)+A(5)*(xx.^4)+A(6)*(xx.^5);
+plot(x,y,"*",xx,yy)
+legend("Węzły aproksymacji","Aproksymacja wielomianem szóstego stopnia")]]></description><link>other/software/matlab-+-simulink.html</link><guid isPermaLink="false">Other/Software/MATLAB + Simulink.md</guid><pubDate>Mon, 29 Sep 2025 14:10:43 GMT</pubDate><enclosure url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif" length="0" type="image/gif"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Matrix_transpose.gif/200px-Matrix_transpose.gif&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[AutoCAD]]></title><description><![CDATA[FreeCAD/ LibreCAD/ BricsCAD - FOSS alternative to AutoCAD
+The manual: <a rel="noopener nofollow" class="external-link is-unresolved" href="https://wiki.freecad.org/Manual:Introduction" target="_self">https://wiki.freecad.org/Manual:Introduction</a>FreeCAD interface is separated into workbenches (sets of tools).Change preferences:
+Edit -&gt; PreferencesI've made a change to Dark.qss:
+{
+font-size: 12px;
+}
+View -&gt; Panels -&gt; Selection view.To drag toolbars you first need to drag it down and then move it.<br><a rel="noopener nofollow" class="external-link is-unresolved" href="https://wiki.freecad.org/Mouse_navigation#CAD_navigation" target="_self">https://wiki.freecad.org/Mouse_navigation#CAD_navigation</a>
+OpenSCAD navigation seems to be the most intuitive.
+You can hover over the navigation style icon to show a tooltip.Keep in mind that there are some navigation options available for all navigation styles. E.g.:
+Use the Crtl key to select more than one object or element.
+Additionally, you can use Shift + left/right arrow keys to rotate the view by 90 degrees.]]></description><link>other/software/autocad.html</link><guid isPermaLink="false">Other/Software/AutoCAD.md</guid><pubDate>Tue, 23 Sep 2025 14:47:53 GMT</pubDate></item><item><title><![CDATA[Metody numeryczne i statystyka]]></title><description><![CDATA[W:
+ĆWA:
+ĆWL:Uwaga
+Nieobecność na 30% zajęć skutkuje kolokwium.
+<a data-href="MATLAB + Simulink" href="other/software/matlab-+-simulink.html" class="internal-link" target="_self" rel="noopener nofollow">MATLAB + Simulink</a>]]></description><link>uni/metody-numeryczne-i-statystyka.html</link><guid isPermaLink="false">UNI/Metody numeryczne i statystyka.md</guid><pubDate>Tue, 16 Sep 2025 15:26:19 GMT</pubDate></item><item><title><![CDATA[Zapis konstrukcji]]></title><description><![CDATA[W:
+ĆWP:Uwaga Trzeba być obecnym na 30% wykładów, aby nie pisać kolokwium z wykładów.
+Trzeba uzyskać ocenę pozytywną ze wszystkich kolokwiów oraz arkuszy kontrolnych/rysunkowych.
+Dopuszczalne są 2 nieobecności. <a data-href="AutoCAD" href="other/software/autocad.html" class="internal-link" target="_self" rel="noopener nofollow">AutoCAD</a>]]></description><link>uni/zapis-konstrukcji.html</link><guid isPermaLink="false">UNI/Zapis konstrukcji.md</guid><pubDate>Tue, 16 Sep 2025 15:25:50 GMT</pubDate></item><item><title><![CDATA[greek_letters_cursive]]></title><description><![CDATA[<img src="greek_letters_cursive.jpg" target="_self">]]></description><link>greek_letters_cursive.html</link><guid isPermaLink="false">greek_letters_cursive.jpg</guid><pubDate>Sun, 14 Sep 2025 14:10:56 GMT</pubDate><enclosure url="greek_letters_cursive.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;greek_letters_cursive.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Techniki wytwarzania]]></title><description><![CDATA[W:
+ĆWA:<a data-href="AutoCAD" href="other/software/autocad.html" class="internal-link" target="_self" rel="noopener nofollow">AutoCAD</a>]]></description><link>uni/techniki-wytwarzania.html</link><guid isPermaLink="false">UNI/Techniki wytwarzania.md</guid><pubDate>Sat, 13 Sep 2025 09:42:08 GMT</pubDate></item><item><title><![CDATA[Mechanika 2]]></title><description><![CDATA[W:
+ĆWA:Info
+Na termin zerowy egzaminu trzeba mieć ocenę 4,5 lub wyższą z ćwiczeń audytoryjnych.
+Uwaga
+Można mieć maksymalnie 3 nieobecności nieusprawiedliwione.
+Polecane podręczniki:
+W. Mieszczerski - Mechanika,
+Engineering Mechanics - Statics and Dynamics (11th Edition) - Russell Charles Hibbeler,
+Marek Figiel - Zadania z mechaniki ogólnej II.]]></description><link>uni/mechanika-2.html</link><guid isPermaLink="false">UNI/Mechanika 2.md</guid><pubDate>Tue, 29 Jul 2025 14:53:07 GMT</pubDate></item><item><title><![CDATA[Wytrzymałość materiałów]]></title><description><![CDATA[W:
+ĆWA:
+ĆWL:Uwaga Można mieć maksymalnie 4 nieobecności nieusprawiedliwione.
+Do zaliczenia trzeba mieć ponad połowę obecności.
+Każde kolokwium musi zostać zaliczone na ocenę pozytywną.
+Oddawanie sprawozdań w odpowiednich terminach wpływa na ocenę. Polecane podręczniki:
+Adam Bodnar - Wytrzymałosc Materiałów]]></description><link>uni/wytrzymałość-materiałów.html</link><guid isPermaLink="false">UNI/Wytrzymałość materiałów.md</guid><pubDate>Tue, 29 Jul 2025 14:50:21 GMT</pubDate></item><item><title><![CDATA[Technologie obróbki metali i tworzyw sztucznych]]></title><description><![CDATA[W:
+ĆWL:Kolokwium z wykładów.]]></description><link>uni/technologie-obróbki-metali-i-tworzyw-sztucznych.html</link><guid isPermaLink="false">UNI/Technologie obróbki metali i tworzyw sztucznych.md</guid><pubDate>Tue, 29 Jul 2025 12:31:05 GMT</pubDate></item><item><title><![CDATA[Podstawy automatyki]]></title><description><![CDATA[W:
+ĆWA:
+ĆWL:Uwaga Dopuszczalna jest 1 nieobecność.
+Nieobecność na 3 ćwiczeniach skutkuje brakiem zaliczenia. ]]></description><link>uni/podstawy-automatyki.html</link><guid isPermaLink="false">UNI/Podstawy automatyki.md</guid><pubDate>Tue, 29 Jul 2025 12:01:59 GMT</pubDate></item></channel></rss>
